@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #A7C4BC;
+}
+h1{
+    text-align: center;
+}
+.card{
+    margin: 0 auto;
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2)
+    
+    
+}
+.card:hover{
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
+}
+.c-head #result{
+    background-color:#DFEEEA;
+    width: 335px;
+    height: 95px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 2px;
+    padding: 0 5px;
+}
+.bton{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #2F5D62;
+    color:white;
+
+}
+.d-style{
+    background-color:#5E8B7E;
+}
+.bton:hover{
+    background-color:#61bb83;
+}

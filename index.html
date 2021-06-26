@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CalculatorProject</title>
+                                   
+    
+</head>
+                                <!--HTML Calculator Body Part-->
+<body><br><br>
+    <h1>Calculator</h1>
+    <br>
+    <div class="card">
+        <div class="c-head">
+            <input type="text" id="result" maxlength="15">
+        </div>
+        <div class="c-body">
+            <div>
+                <input type="button" class="bton" value="C" onclick="clearDisplay()">
+                <input type="button" class="bton" value="+/-">
+                <input type="button" class="bton" value="%">
+                <input type="button" class="bton d-style" value="/" onclick="inputNum('/')">
+            </div>
+
+            <div>
+                <input type="button" class="bton" value="7" onclick="inputNum(7)">
+                <input type="button" class="bton" value="8" onclick="inputNum(8)">
+                <input type="button" class="bton" value="9" onclick="inputNum(9)">
+                <input type="button" class="bton d-style" value="x" onclick="inputNum('*')">
+            </div>
+
+            <div>
+                <input type="button" class="bton" value="4" onclick="inputNum(4)">
+                <input type="button" class="bton" value="5" onclick="inputNum(5)">
+                <input type="button" class="bton" value="6" onclick="inputNum(6)">
+                <input type="button" class="bton d-style" value="-" onclick="inputNum('-')">
+            </div>
+
+            <div>
+                <input type="button" class="bton" value="1" onclick="inputNum(1)">
+                <input type="button" class="bton" value="2" onclick="inputNum(2)">
+                <input type="button" class="bton" value="3" onclick="inputNum(3)">
+                <input type="button" class="bton d-style" value="+" onclick="inputNum('+')">
+            </div>
+
+            <div>
+                <input type="button" class="bton" value="0"   onclick="inputNum(0)">
+                <input type="button" class="bton" value="."   onclick="inputNum('.')">
+                <input type="button" class="bton" value="DEL" onclick="delNum()">
+                <input type="button" class="bton" style="background-color:orange" value="=" onclick="calculate()">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
